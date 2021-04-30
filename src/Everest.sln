@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everest.UI.WPF", "Everest.UI.WPF\Everest.UI.WPF.csproj", "{34BA654C-E59B-4C47-8E0F-5D40BDADC2D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everest.UI", "Everest.UI\Everest.UI.csproj", "{3925C484-3934-44EE-9BFE-D6F36D2B5167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everest.Data.Contract", "Everest.Data.Contract\Everest.Data.Contract.csproj", "{6CF86010-4DAA-41AC-819E-278F932FF79D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everest.Data", "Everest.Data\Everest.Data.csproj", "{E2FDB9BC-AA48-4CA6-A7E9-38C8D8150593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everest.Business.Contract", "Everest.Business.Contract\Everest.Business.Contract.csproj", "{5A851DF6-F177-45DC-BA6C-0345E5788735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everest.Business", "Everest.Business\Everest.Business.csproj", "{A783452D-031A-428C-8273-5381C00EC165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everest.Business.Handlers", "Everest.Business.Handlers\Everest.Business.Handlers.csproj", "{06CD9AD3-D19F-4145-8CAA-24376D09B721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everest.Business.Infrastructure", "Everest.Business.Infrastructure\Everest.Business.Infrastructure.csproj", "{0DEB0C13-082A-4165-B9AB-3085C1CACCFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everest.Data.Notepad", "Everest.Data.Notepad\Everest.Data.Notepad.csproj", "{93873B50-CCDA-4BEF-8495-47637649C3B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everest.Data.Infrastructure", "Everest.Data.Infrastructure\Everest.Data.Infrastructure.csproj", "{5950E8BD-DFD9-48EE-96F2-07794D1D72B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everest", "Everest\Everest.csproj", "{EF3354FC-F74A-4876-9CD4-F69218E945EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34BA654C-E59B-4C47-8E0F-5D40BDADC2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BA654C-E59B-4C47-8E0F-5D40BDADC2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BA654C-E59B-4C47-8E0F-5D40BDADC2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BA654C-E59B-4C47-8E0F-5D40BDADC2D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3925C484-3934-44EE-9BFE-D6F36D2B5167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3925C484-3934-44EE-9BFE-D6F36D2B5167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3925C484-3934-44EE-9BFE-D6F36D2B5167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3925C484-3934-44EE-9BFE-D6F36D2B5167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF86010-4DAA-41AC-819E-278F932FF79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF86010-4DAA-41AC-819E-278F932FF79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF86010-4DAA-41AC-819E-278F932FF79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF86010-4DAA-41AC-819E-278F932FF79D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2FDB9BC-AA48-4CA6-A7E9-38C8D8150593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2FDB9BC-AA48-4CA6-A7E9-38C8D8150593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2FDB9BC-AA48-4CA6-A7E9-38C8D8150593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2FDB9BC-AA48-4CA6-A7E9-38C8D8150593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A851DF6-F177-45DC-BA6C-0345E5788735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A851DF6-F177-45DC-BA6C-0345E5788735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A851DF6-F177-45DC-BA6C-0345E5788735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A851DF6-F177-45DC-BA6C-0345E5788735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A783452D-031A-428C-8273-5381C00EC165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A783452D-031A-428C-8273-5381C00EC165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A783452D-031A-428C-8273-5381C00EC165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A783452D-031A-428C-8273-5381C00EC165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CD9AD3-D19F-4145-8CAA-24376D09B721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CD9AD3-D19F-4145-8CAA-24376D09B721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CD9AD3-D19F-4145-8CAA-24376D09B721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CD9AD3-D19F-4145-8CAA-24376D09B721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DEB0C13-082A-4165-B9AB-3085C1CACCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEB0C13-082A-4165-B9AB-3085C1CACCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEB0C13-082A-4165-B9AB-3085C1CACCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DEB0C13-082A-4165-B9AB-3085C1CACCFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93873B50-CCDA-4BEF-8495-47637649C3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93873B50-CCDA-4BEF-8495-47637649C3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93873B50-CCDA-4BEF-8495-47637649C3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93873B50-CCDA-4BEF-8495-47637649C3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5950E8BD-DFD9-48EE-96F2-07794D1D72B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5950E8BD-DFD9-48EE-96F2-07794D1D72B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5950E8BD-DFD9-48EE-96F2-07794D1D72B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5950E8BD-DFD9-48EE-96F2-07794D1D72B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3354FC-F74A-4876-9CD4-F69218E945EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3354FC-F74A-4876-9CD4-F69218E945EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3354FC-F74A-4876-9CD4-F69218E945EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3354FC-F74A-4876-9CD4-F69218E945EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {220BFD4C-ECAC-42EE-94C6-0E9910F24F5D}
+	EndGlobalSection
+EndGlobal

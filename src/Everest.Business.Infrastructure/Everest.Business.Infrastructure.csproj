@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Everest.Business\Everest.Business.csproj" />
+    <ProjectReference Include="..\Everest.Data.Infrastructure\Everest.Data.Infrastructure.csproj" />
+    <ProjectReference Include="..\Everest.Data\Everest.Data.csproj" />
+  </ItemGroup>
+
+</Project>
