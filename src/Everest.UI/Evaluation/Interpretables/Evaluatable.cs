@@ -12,19 +12,12 @@ namespace Everest.UI.Evaluation.Interpretables
         private readonly T value;
         private readonly Interpretable<T> interpretable;
 
-        private Evaluatable(T value = default, Interpretable<T> interpretable = default)
+        private Evaluatable(bool isInterpretable, T value = default, Interpretable<T> interpretable = default)
         {
-            if (value.Equals(default(T)) && interpretable == default(Interpretable<T>))
-            {
-                throw new InvalidOperationException("Value or Interpretable must be provided");
-            }
-
-            isInterpretable = interpretable is not null;
-
+            this.isInterpretable = isInterpretable;
             this.value = value;
             this.interpretable = interpretable;
         }
-
 
         public TResult Match<TResult>(
             Func<T, TResult> withValue,
@@ -33,10 +26,11 @@ namespace Everest.UI.Evaluation.Interpretables
             return isInterpretable ? withInterpretable(interpretable) : withValue(value);
         }
 
-        public static Evaluatable<T> Value(T value) => new Evaluatable<T>(value: value);
+        public static Evaluatable<T> Value(T value) => new Evaluatable<T>(isInterpretable: false, value: value);
 
-        public static Evaluatable<T> Interpretable(Interpretable<T> interpretable) => new Evaluatable<T>(interpretable: interpretable);
+        public static Evaluatable<T> Interpretable(Interpretable<T> interpretable) => new Evaluatable<T>(isInterpretable: true, interpretable: interpretable);
     }
+
     public static class Evaluateable
     {
         public static Evaluatable<T> Value<T>(T value) => Evaluatable<T>.Value(value);
